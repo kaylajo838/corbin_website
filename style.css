@@ -188,6 +188,22 @@ body {
     padding: 0.5em;
 }
 
+.community-button {
+    width: 12em;
+}
+
+.community-button a:hover {
+    font-weight: 700;
+}
+
+.donate-button {
+    width: 6em;
+}
+
+.donate-button a:hover {
+    font-weight: 700;
+}
+
 .section-three a {
     text-decoration: none;
     color: black;
@@ -269,11 +285,23 @@ body {
 }
 
 .section-four button {
-    background-color: #B4D033;
-    border: 1px solid black;
+    background-color: #005D52;
+    /* border: 1px solid black; */
+    border: none;
     border-radius: 0.5em;
     padding: 0.5em;
     margin-top: 2em;
+    width: 12em;
+}
+
+.section-four a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-four a:hover {
+    /* color: #B4D033; */
+    font-weight: 700;
 }
 
 /* Footer Styling */
