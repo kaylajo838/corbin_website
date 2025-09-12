@@ -48,6 +48,10 @@ body {
     /* margin-right: 2em; */
 }
 
+.nav-links-1 .nav-link {
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
 .nav-links-1 .nav-link:hover {
     cursor: pointer;
     text-decoration: none;
@@ -75,6 +79,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     color: black;
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .nav-links-2 .nav-link:hover {
@@ -132,6 +137,27 @@ body {
     height: 1.5em;
 }
 
+.partner-button {
+    width: 12em;
+    background-color: #B4D033;
+    /* border: 1px solid black; */
+    border: #B4D033;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.partner-button a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.partner-button a:hover {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
 /* Section Two Styling */
 
 .section-two {
@@ -179,6 +205,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     color: black;
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .section-two a:hover {
@@ -201,6 +228,10 @@ footer {
 .footer-inner-container {
     display: flex;
     flex-direction: column;
+}
+
+.footer-inner-container a {
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .footer-inner-container a:hover {

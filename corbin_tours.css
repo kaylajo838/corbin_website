@@ -48,6 +48,10 @@ body {
     /* margin-right: 2em; */
 }
 
+.nav-links-1 .nav-link {
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
 .nav-links-1 .nav-link:hover {
     cursor: pointer;
     text-decoration: none;
@@ -75,6 +79,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     color: black;
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .nav-links-2 .nav-link:hover {
@@ -132,7 +137,26 @@ body {
     height: 1.5em;
 }
 
-/* Footer Styling */
+/* Section Two Styling */
+
+.section-two {
+    padding: 2em;
+}
+
+.doc-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.doc-frame {
+    width: min(100%, 850px);
+    height: 100vh;              
+    border: 0;
+}
+
+/* .section-two { 
+    padding: 1rem 0; 
+} */
 
 /* Footer Styling */
 
@@ -150,6 +174,10 @@ footer {
 .footer-inner-container {
     display: flex;
     flex-direction: column;
+}
+
+.footer-inner-container a {
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .footer-inner-container a:hover {

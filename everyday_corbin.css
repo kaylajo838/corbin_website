@@ -48,6 +48,10 @@ body {
     /* margin-right: 2em; */
 }
 
+.nav-links-1 .nav-link {
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
 .nav-links-1 .nav-link:hover {
     cursor: pointer;
     text-decoration: none;
@@ -75,6 +79,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     color: black;
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .nav-links-2 .nav-link:hover {
@@ -134,7 +139,28 @@ body {
 .spacer {
     display: block;
     height: 1.5em;
-}  
+}
+
+.calendar-button {
+    width: 12em;
+    background-color: #B4D033;
+    /* border: 1px solid black; */
+    border: #B4D033;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.calendar-button a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.calendar-button a:hover {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
 
 /* Section Two Styling */
 
@@ -160,6 +186,33 @@ body {
 .section-two h3 {
     border-bottom: 2px solid black;
     padding-bottom: 1em;
+}
+
+.is-hidden { 
+    display: none; 
+}
+
+.btn {
+    display: inline-block;
+    padding: .5rem .9rem;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #B4D033;
+    color: black;
+    cursor: pointer;
+    width: 10em;
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.btn:focus { 
+    outline: none !important;
+    box-shadow: none !important;  
+}
+
+.btn:hover {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
 }
 
 /* Section Three Styling */
@@ -198,6 +251,10 @@ footer {
 .footer-inner-container {
     display: flex;
     flex-direction: column;
+}
+
+.footer-inner-container a {
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .footer-inner-container a:hover {

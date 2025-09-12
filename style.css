@@ -48,6 +48,10 @@ body {
     /* margin-right: 2em; */
 }
 
+.nav-links-1 .nav-link {
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
 .nav-links-1 .nav-link:hover {
     cursor: pointer;
     text-decoration: none;
@@ -75,6 +79,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     color: black;
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .nav-links-2 .nav-link:hover {
@@ -116,26 +121,39 @@ body {
 
 .section-two {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 2em;
     /* margin: 2em; */
     padding: 4em;
     width: 100%;
 }
 
-.section-two div {
-    max-width: 20em;
+.section-two-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    /* margin: 2em; */
+    padding: 4em;
+    padding-bottom: 0;
+    width: 100%;
 }
 
+/* .section-two div {
+    max-width: 20em;
+} */
+
 .section-two img {
-    max-width: 100%;
+    width: 30em;
     padding-bottom: 2em;
 }
 
 .section-two a {
     color: black;
     text-decoration: none;
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .section-two h3 {
@@ -190,6 +208,11 @@ body {
 
 .community-button {
     width: 12em;
+}
+
+.community-button a,
+.donate-button a {
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .community-button a:hover {
@@ -297,6 +320,7 @@ body {
 .section-four a {
     text-decoration: none;
     color: white;
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .section-four a:hover {
@@ -320,6 +344,10 @@ footer {
 .footer-inner-container {
     display: flex;
     flex-direction: column;
+}
+
+.footer-inner-container a {
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .footer-inner-container a:hover {

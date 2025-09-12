@@ -48,6 +48,10 @@ body {
     /* margin-right: 2em; */
 }
 
+.nav-links-1 .nav-link {
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
 .nav-links-1 .nav-link:hover {
     cursor: pointer;
     text-decoration: none;
@@ -75,6 +79,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     color: black;
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .nav-links-2 .nav-link:hover {
@@ -177,11 +182,13 @@ img {
 
 .section-two a {
     color: #005D52;
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .section-two a:hover {
     color: #B4D033;
     text-decoration: none;
+    font-weight: 700;
 }
 
 /* Section Three Styling */
@@ -272,6 +279,10 @@ footer {
 .footer-inner-container {
     display: flex;
     flex-direction: column;
+}
+
+.footer-inner-container a {
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
 .footer-inner-container a:hover {
