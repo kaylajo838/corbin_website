@@ -137,7 +137,32 @@ body {
     height: 1.5em;
 }
 
-.partner-button {
+
+
+/* Section Two Styling */
+
+.section-two {
+    /* padding: 2em; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    /* gap: 10em; */
+    padding: 4em 15em 4em 15em;
+    width: 100%;
+}
+
+.section-two h1 {
+    font-size: 2em;
+}
+
+.header-two {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5em;
+    width: fit-content;
+}
+
+.volunteer-button {
     width: 12em;
     background-color: #B4D033;
     /* border: 1px solid black; */
@@ -146,82 +171,45 @@ body {
     padding: 0.5em;
 }
 
-.partner-button-two {
-    width: 13em;
-    background-color: #B4D033;
-    /* border: 1px solid black; */
-    border: #B4D033;
-    border-radius: 0.5em;
-    padding: 0.5em;
-    margin-left: 2em;
-}
-
-.partner-button a,
-.partner-button-two a {
+.volunteer-button a {
     text-decoration: none;
     color: black;
     transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
-.partner-button a:hover,
-.partner-button-two a:hover {
+.volunteer-button a:hover {
     font-weight: 700;
     text-decoration: none;
     color: white;
 }
 
-/* Section Two Styling */
-
-.section-two {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2em;
-    padding: 4em;
-    width: 100%;
+.volunteer-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5em;
 }
 
-.section-two-container {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2em;
-    padding: 2em 4em 0 4em;
-    width: 100%;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    width: 18rem;
-    height: 24em;
-    border: 1px solid black;
+.volunteer-list li:last-child {
+    margin-bottom: 0;
 }
   
-  .card-body {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+
+.volunteer-list li {
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 0.75em;
 }
 
-.section-two p {
-    text-align: center;
+.volunteer-list li::before {
+    /* content: ">"; */
+    content: "›";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #005D52;
+    font-weight: bold;
     font-size: 1.2em;
-}
-
-.section-two a {
-    text-decoration: none;
-    font-weight: 700;
-    color: black;
-    transition: color 0.2s ease, font-weight 0.2s ease;
-}
-
-.section-two a:hover {
-    color: #B4D033;
 }
 
 /* Footer Styling */

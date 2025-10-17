@@ -131,6 +131,27 @@ body {
     height: 1.5em;
 }
 
+.reserve-button {
+    width: 8em;
+    background-color: #B4D033;
+    /* border: 1px solid black; */
+    border: #B4D033;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.reserve-button a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.reserve-button a:hover {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
 /* Section Two Styling */
 
 .section-two {
